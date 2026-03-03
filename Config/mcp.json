@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "azure_boards": {
+      "transport": "http",
+      "url": "http://127.0.0.1:8001/mcp"
+    },
+    "azure_repos": {
+      "transport": "http",
+      "url": "http://127.0.0.1:8002/mcp"
+    },
+    "smart_terminal": {
+      "transport": "stdio",
+      "command": "python",
+      "args": ["server/smart_terminal_server.py"]
+    }
+  }
+}
