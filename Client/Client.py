@@ -21,7 +21,7 @@ async def run_memory_chat():
         raise ValueError("GROQ_API_KEY not found in environment variables")
 
     # MCP configuration file
-    config_file = "cal.json"
+    config_file = "config/mcp.json"
 
     print("🚀 Initializing MCP Chat...")
 
